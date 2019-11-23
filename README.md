@@ -34,6 +34,7 @@
 [【python数据挖掘课程】二十七.基于SVM分类器的红酒数据分析](https://blog.csdn.net/Eastmount/article/details/86512901) <br />
 [【python数据挖掘课程】二十八.基于LDA和pyLDAvis的主题挖掘及可视化分析](https://blog.csdn.net/Eastmount/article/details/91380607) <br />
 [【python数据挖掘课程】二十九.数据预处理之字符型转换数值型、标准化、归一化处理](https://blog.csdn.net/Eastmount/article/details/103212931) <br />
+[【python数据挖掘课程】二十九.数据预处理之字符型转换数值型、标准化、归一化处理](https://blog.csdn.net/Eastmount/article/details/103212931) <br />
 
 ---
 
