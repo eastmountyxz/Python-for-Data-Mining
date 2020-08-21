@@ -35,6 +35,10 @@
 [【python数据挖掘课程】二十八.基于LDA和pyLDAvis的主题挖掘及可视化分析](https://blog.csdn.net/Eastmount/article/details/91380607) <br />
 [【python数据挖掘课程】二十九.数据预处理之字符型转换数值型、标准化、归一化处理](https://blog.csdn.net/Eastmount/article/details/103212931) <br />
 
+
+效果图显示如下：
+
+
 ---
 
 都是非常基础的文章，如果有错误或不足之处，还请告知及海涵，谢谢您的鼓励与支持，请帮忙点个Star！您的支持是我最大的动力，共勉~
