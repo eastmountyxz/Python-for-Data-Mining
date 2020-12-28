@@ -41,12 +41,14 @@
 
 效果图显示如下：
 
-
-<img src="https://img-blog.csdnimg.cn/20190116191907871.png" height="70%" width="70%" />
-
+<div aglin="center">
+  <img src="https://img-blog.csdnimg.cn/20190116191907871.png" height="70%" width="70%" />
+</div>
 <br />
 
+<div aglin="center">
 <img src="https://img-blog.csdnimg.cn/20181221110034516.png" height="70%" width="70%" />
+</div>
 
 <br />
 
