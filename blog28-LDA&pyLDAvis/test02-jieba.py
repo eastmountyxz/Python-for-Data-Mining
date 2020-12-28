@@ -2,7 +2,7 @@
 import pandas as pd
 
 #第一步 读取数据
-f = open('data.csv')
+f = open('data.csv',encoding='utf-8')
 df = pd.read_csv(f)
 print(df.shape)         #查看数据维度
 print(df.head())        #查看前几行数据
@@ -19,4 +19,4 @@ def chinese_word_cut(mytext):
 
 #增加一列数据
 df['content_cutted'] = df['comment'].apply(chinese_word_cut)
-print df.content_cutted.head()
+print(df.content_cutted.head())
