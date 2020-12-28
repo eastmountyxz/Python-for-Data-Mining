@@ -21,7 +21,7 @@ i = 0
 while i<10:
     num = i*20
     url = "https://movie.douban.com/subject/1292052/comments?start=" + str(num) +"&limit=20&sort=new_score&status=P"
-    print url
+    print(url)
     driver.get(url)
     #用户姓名 超链接
     elem1 = driver.find_elements_by_xpath("//div[@class='avatar']/a")     
@@ -40,26 +40,26 @@ while i<10:
     while k<20:
         #序号
         num = i*20+k+1
-        print num
+        print(num)
         #用户姓名
         name = elem1[k].get_attribute("title").encode('utf-8')
-        print name
+        print(name)
         #超链接
         href = elem1[k].get_attribute("href").encode('utf-8')
-        print href
+        print(href)
         #用户评分及内容
         score = elem2[k].get_attribute("class").encode('utf-8')
-        print score
+        print(score)
         content = elem2[k].get_attribute("title").encode('utf-8')
-        print content
+        print(content)
         #有用数
         useful = elem3[k].text.encode('utf-8')
-        print useful
+        print(useful)
         #日期
         date = elem4[k].text.encode('utf-8')
         #评论
         shortcon = elem5[k].text.encode('utf-8')
-        print shortcon
+        print(shortcon)
 
         #写入文件
         templist = []
