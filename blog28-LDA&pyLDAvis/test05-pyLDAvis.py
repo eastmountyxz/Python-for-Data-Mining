@@ -2,7 +2,7 @@
 import pandas as pd
 
 #-------------------  第一步 读取数据  ------------------------
-f = open('data.csv')
+f = open('data.csv', encoding='utf-8')
 df = pd.read_csv(f)
 print(df.shape)         #查看数据维度
 print(df.head())        #查看前几行数据
@@ -19,7 +19,7 @@ def chinese_word_cut(mytext):
 
 #增加一列数据
 df['content_cutted'] = df['comment'].apply(chinese_word_cut)
-print df.content_cutted.head()
+print(df.content_cutted.head())
 
 #-------------------  第三步 计算TF-IDF值  --------------------- 
 from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
@@ -50,7 +50,8 @@ from sklearn.decomposition import LatentDirichletAllocation
 #设置主题数
 n_topics = 3
 
-lda = LatentDirichletAllocation(n_topics=n_topics,
+#Python 2.X: n_topics=n_topics
+lda = LatentDirichletAllocation(n_components=n_topics,
                                 max_iter=100,
                                 learning_method='online',
                                 learning_offset=50,
@@ -64,7 +65,7 @@ print(lda.components_.shape)
 
 #计算困惑度
 print(u'困惑度：')
-print lda.perplexity(tf,sub_sampling = False)        
+print(lda.perplexity(tf,sub_sampling = False))    
 
 #主题-关键词分布
 def print_top_words(model, tf_feature_names, n_top_words):
