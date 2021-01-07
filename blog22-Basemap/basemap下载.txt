@@ -1,0 +1,5 @@
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#basemap
+
+- pip install pyproj
+- pip install basemap-1.2.2-cp37-cp37m-win32.whl
+- pip install basemap-1.1.0-cp27-cp27m-win_amd64.whl
