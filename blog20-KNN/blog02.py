@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os 
 import numpy as np
-data = np.loadtxt("wine.txt",dtype=float,delimiter=",")
+data = np.loadtxt("wine.txt",dtype=str,delimiter=",")
 print(data)
  
 yy, x = np.split(data, (1,), axis=1)
