@@ -6,7 +6,7 @@
 
 ---
 
-具体内容请参照如下博客：
+具体内容请参照如下CSDN博客：
 
 [【Python数据挖掘课程】一.安装Python及爬虫入门介绍](https://blog.csdn.net/eastmount/article/details/52577215) <br />
 [【Python数据挖掘课程】二.Kmeans聚类数据分析及Anaconda介绍](https://blog.csdn.net/eastmount/article/details/52777308) <br />
