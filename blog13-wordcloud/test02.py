@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# By：Eastmount CSDN
 from os import path
 from scipy.misc import imread  
 import jieba
