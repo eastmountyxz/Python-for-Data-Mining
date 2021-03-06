@@ -1,4 +1,5 @@
-#coding=utf-8  
+#coding=utf-8
+#By：Eastmount CSDN
 from matplotlib import pyplot as plt  
   
 X = [[0, 0.25], [0.5, 0.75]]   
